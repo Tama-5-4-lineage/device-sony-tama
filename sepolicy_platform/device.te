@@ -1,0 +1,6 @@
+# system/vendor/oem back the retrofit super, so they must carry the
+# super_block_device_type attribute (retrofit dynamic partitions).
+type diag_block_device, dev_type;
+
+typeattribute system_block_device super_block_device_type;
+typeattribute vendor_block_device super_block_device_type;
